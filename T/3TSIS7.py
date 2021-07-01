@@ -1,0 +1,5 @@
+a=input().split()
+b=input().split()
+l=set(a)
+s=set(b)
+print(len(l & s))
